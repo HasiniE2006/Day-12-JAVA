@@ -16,7 +16,7 @@ import java.util.*;
         for(int s:arr1)
         a.add(s);
         for(int s1:arr2)
-        a.add(s1);
+        b.add(s1);
         Set <Integer> u=new HashSet<>(a);
         u.addAll(b);
         System.out.println(u);
